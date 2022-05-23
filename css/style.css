@@ -420,8 +420,8 @@ img{
 
 .scroll-to-top{
 	position:fixed;
-	bottom:15px;
-	right:15px;
+	bottom:70px;
+	left:15px;
 	width:50px;
 	height:50px;
 	color:#ffffff;
@@ -2449,12 +2449,12 @@ img{
 .services-block-two .inner-box .overlay-box .links-box .link{
 	position:relative;
 	display:inline-block;
-	width:44px;
+	width:100px;
 	height:44px;
 	line-height:44px;
 	font-size:16px;
-	background:#ffffff;
-	color:#DF9C60;
+	background:#DF9C60;
+	color: #ffffff;
 	margin:0px 3px;
 	border-radius:3px;
 	-webkit-transition:all 300ms ease;
@@ -2465,8 +2465,8 @@ img{
 }
 
 .services-block-two .inner-box .overlay-box .links-box .link:hover{
-	background:#DF9C60;
-	color:#ffffff;
+	background:#ffffff;
+	color:#DF9C60;
 }
 
 /*** 
@@ -2866,6 +2866,17 @@ img{
 	position:relative;
 	padding-top:140px;
 }
+
+
+
+.procesos-grid img{
+	border-radius: 2%;
+	object-fit: cover;
+	
+}
+
+
+
 
 .projects-section .pattern-layer{
 	position:absolute;
@@ -10244,3 +10255,4 @@ img{
 .comment-form button{
 	cursor:pointer;
 }
+
